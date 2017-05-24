@@ -1,0 +1,19 @@
+.square {
+  background:  green;
+  border-radius: 0;
+  height: 100px;
+  width: 100px;
+  transition: all .3s ease-in-out;
+  margin: 100px 0px 0px 200px;
+  
+}
+P{
+  padding:40px 0px 0px 30px;
+}
+
+.square:hover {
+  background:  orange;
+  border-radius:50%;  
+  cursor: pointer;
+   transition: all 1.3s ease-in-out;
+}
